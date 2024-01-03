@@ -1,0 +1,162 @@
+/*----------------------------------------*\
+        #styles.css
+\*-----------------------------------------*/
+
+/**
+    *Learning and  doing the best !!
+
+    */
+/*----------------------------------------*\
+        #CUSTOM PROPERTY
+\*-----------------------------------------*/
+
+/*----------------------------------------*\
+        #COLORS
+        background: var(--Backgorund-1, #F5F5F5);
+        fill: var(--Primary, #008ECC);
+
+
+        #TYPOGRAPHY
+        color: var(--Text, #666);
+        text-align: right;
+        font-family: HK Grotesk;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 128.571% */
+/*----------------------------------------*\
+        color: var(--HEading, #222);
+        text-align: right;
+        font-family: HK Grotesk;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; /* 128.571% */
+/*----------------------------------------*\
+    color: var(--Text, #666);
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 112.5% */
+
+
+
+html{
+    font-family: HK Grotesk;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--White);
+    overflow-x: hidden;
+}
+
+
+
+header{
+    width: 100%;
+    height: 42px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    background: var(--Backgorund-1, #F5F5F5);
+    margin: 0%;
+}
+
+.nav-bar-Logo{
+    justify-content: center;
+    width: auto;
+    height: 90px;
+    flex-shrink: 0;
+    background: var(--White, #FFF);
+    align-items: center;
+}
+.Search_bar-rectangle{
+    width: 507px;
+    height: 48px;
+    display: flex;
+    border-radius: 10px;
+    background: var(--Background-3, #F3F9FB);
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+
+.header-top{
+    width: 100%;
+    height: 42px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container1{
+    justify-content: flex-end;
+    display: flexbox;
+}
+
+
+.header-top-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+
+.header_top_icon_text{
+    margin-right: 10px;
+}
+.header_top_iconstext_only{
+    margin-left: 6px;
+    color: var(--Text, #666);
+    text-align: right;
+    font-family: HK Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+}
+
+.header-bottom{
+    width: 100%;
+    height: 90px;
+    flex-shrink: 0;
+    display: flex;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.header-bottom-content{
+    display: flex;
+}
+
+.nav-bar-Logo{
+    margin-right: 220px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:120px;
+}
+
+.logo-icon{
+    margin-left: 16px;
+    
+}
+.svg_nav_icons{
+    display: inline-block;
+}
+
+.signup_icon_para{
+    display: flex;
+
+}
+
+.signup_icon_para_1{
+    margin-top: 21px;
+    margin-left: 30px;
+}
